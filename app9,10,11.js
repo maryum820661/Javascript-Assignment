@@ -111,7 +111,7 @@ if("car" < "cat")
 {
  alert("car is smaller than cat");
 }
-//code doesnot run.
+//code does run.
 
 
 //6.Write a program to take input the marks obtained in three subjects & total marks. Compute & show the resulting percentage on your page. Take percentage & compute grade as per following table:
@@ -239,7 +239,7 @@ document.write("The subtraction of "+num1+" and " +num2+ " is" +result);
 else if(opr==='*')
 {
 result=num1*num2;
-document.write("The Multiplication of "+num1+" and " +num2+ " is" +result);
+document.write("<br>The Multiplication of "+num1+" and " +num2+ " is" +result);
 }
 else if(opr==='/')
 {
